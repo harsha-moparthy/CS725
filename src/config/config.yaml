@@ -1,3 +1,9 @@
 dataset_path : datasets/
 dataset_batch_size : 100
+
+training.epochs : 
+
 model.path.momentum : 0.9
+model.peer_normalization : 0.03
+model.hidden_dim : 1000
+model.num_layers : 3
