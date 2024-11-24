@@ -1,0 +1,5 @@
+torch
+torchvision
+torchaudio
+hydra-core
+einops
