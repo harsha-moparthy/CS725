@@ -1,9 +1,18 @@
 dataset_path : datasets/
 dataset_batch_size : 100
 
-training.epochs : 
+training.lr : 0.001
+training.weight_decay : 0.0003
+training.epochs : 100
+training.momentum : 0.9
+training.ds_lr : 0.01
+training.ds_weight_decay : 0.003
+
+perform_test_on_test_dataset : False
 
 model.path.momentum : 0.9
 model.peer_normalization : 0.03
 model.hidden_dim : 1000
 model.num_layers : 3
+
+hydra.logs_dir : logs/
