@@ -1,0 +1,3 @@
+dataset_path : datasets/
+dataset_batch_size : 100
+model.path.momentum : 0.9
